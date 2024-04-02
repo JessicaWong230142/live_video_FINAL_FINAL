@@ -61,7 +61,8 @@ def update_camera_feed(bottom_left_frame):
             ret, frame = cap.read()
 
             if ret:
-                # coordinates of trapezoid in original video
+                #cited code from https://www.youtube.com/watch?v=drp_mr2x6A8
+                #coordinates of trapezoid in original video
                 tl = (750, 800)
                 bl = (480, 1000)
                 tr = (1190, 800)
