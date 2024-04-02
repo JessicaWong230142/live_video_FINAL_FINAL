@@ -1,5 +1,6 @@
 import cv2
-
+#cited code from https://docs.opencv.org/3.4/de/da9/tutorial_template_matching.html
+#cited code from https://pyimagesearch.com/2021/03/22/opencv-template-matching-cv2-matchtemplate/
 def turn_prediction(frame):
 
     #text to put onto the screen to rep forward, left, right
