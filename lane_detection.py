@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from turn_prediction import turn_prediction
+#cited code from https://www.labellerr.com/blog/real-time-lane-detection-for-self-driving-cars-using-opencv/
 
 #detects lane lines and midline by taking in frame of video
 def detect_lines(frame):
@@ -94,6 +95,8 @@ def detect_lines(frame):
 
 #takes in video feed from camera
 video_feed = cv2.VideoCapture('apple.mov')
+
+#cited code from https://www.youtube.com/watch?v=drp_mr2x6A8
 
 #continuosly capture frames from video_feed
 while True:
